@@ -8,12 +8,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Teko:wght@500;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary-bg: #ffffff;      /* Pure White Background */
-            --secondary-bg: #f8f9fa;    /* Off-White Card Background */
-            --text-primary: #212529;    /* Dark Text */
-            --text-secondary: #6c757d;  /* Gray Text */
-            --accent-color: #fd7e14;     /* Vibrant Orange */
-            --accent-hover: rgba(253, 126, 20, 0.1);
+            --primary-bg: #ffffff;      /* White Background */
+            --secondary-bg: #f8f9fa;    /* Light Gray Card Background */
+            --text-primary: #212529;    /* Dark Charcoal Text */
+            --text-secondary: #6c757d;  /* Muted Gray Text */
+            --accent-color: #007bff;     /* Vibrant Blue */
+            --accent-hover: rgba(0, 123, 255, 0.1);
             --border-color: #dee2e6;
         }
 
@@ -56,7 +56,7 @@
             z-index: -1;
             border-radius: 50%;
             background: var(--accent-color);
-            opacity: 0.1;
+            opacity: 0.1; 
             filter: blur(150px);
             animation: blob-move 20s ease-in-out infinite;
         }
@@ -85,7 +85,7 @@
             position: fixed;
             top: 0;
             width: 100%;
-            background-color: rgba(255, 255, 255, 0.85);
+            background-color: rgba(255, 255, 255, 0.85); /* Light transparent background */
             backdrop-filter: blur(10px);
             padding: 1rem 2rem;
             z-index: 1000;
@@ -200,8 +200,8 @@
         
         .btn:hover {
             background-color: var(--accent-color);
-            color: #fff;
-            box-shadow: 0 5px 15px rgba(253, 126, 20, 0.3);
+            color: #ffffff; /* White text on hover */
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.25);
             transform: translateY(-3px);
         }
 
